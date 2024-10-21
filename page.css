@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#body{
+    background-color: rgba(1,4,9,255);
+    
+}
+#header{
+    height: 60px;
+    width: 100%;
+    background-color: #161516;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.gymlogo{
+    height: 40px;
+    width: 90px;
+    margin: 5px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 55%;
+    font-size: 19px;
+    
+}
+#navbar a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #fdfdfd;
+}
+#registration{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin-right: 20px;
+    width: 140px;
+
+}
+#regbtn{
+    height: 35px;
+    width: 110px;
+    font-size: 19px;
+    border-radius: 500px;
+    border: none;
+    background-color: #da1310;
+    color: #fdfdfd;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+#backpic{
+    width: 60em;
+    height: 50em;
+    
+
+}
+#bgpic{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(1,4,9,255);
+}
+#bgtext{
+    display: inline-block;
+    height: 41em;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8em;
+    background-color: rgba(1,4,9,255);
+    margin: 22px;
+}
+#hd1{
+    color: rgb(61, 255, 47);
+    font-size: 20px;
+    
+   
+   
+}
+#hd2{
+    font-size: 62px;
+    font-weight: 600;
+    color: #fdfdfd;
+}
+#hd3{
+    font-size: 30px;
+    font-weight: 400;
+    columns:rgb(61, 255, 47) ;
+}
+#button{
+    
+    display: inline-flex;
+    width: 25em;
+    justify-content: space-between;
+
+}
+#regbtn2{
+    height: 35px;
+    width: 110px;
+    font-size: 19px;
+    border-radius: 500px;
+    border: 3px solid #da1310;
+   
+    background-color:#00030c ;
+    color: #fdfdfd;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+
+}
+#regbtn2:hover{
+    transition-duration: 1s;
+    background-color: #fdfdfd;
+    color: #00030c;
+}
+#regbtn1{
+    height: 35px;
+    width: 110px;
+    font-size: 19px;
+    border-radius: 500px;
+    border: 3px solid #da1310;
+   
+    background-color:#00030c ;
+    color: #fdfdfd;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+#regbtn1:hover{
+    transition-duration: 1s;
+    background-color: #fdfdfd;
+    color: #da1310;
+}
+#containers3{
+    display: inline-flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 20em;
+    width: 80em;
+    
+    margin-left: 8em;
+    
+
+}
+#container1{
+    background-color:rgb(61, 255, 47) ;
+    height: 15em ;
+    width: 15em;
+    
+    
+}
+#container2{
+    background-color: rgb(61, 255, 47) ;
+    height: 15em ;
+    width: 15em;
+    
+}
+#container3{
+    background-color: rgb(61, 255, 47) ;
+    height: 15em ;
+    width: 15em;
+}
+#containers3 span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fdfdfd;
+    padding: 10px;
+    display: inline-block;
+    
+}
+#containers3 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    
+}
+#container1:hover{
+transition: width 2s, height 2s, transform 2s;
+height: 18em;
+width: 18em;
+transform: rotate(360deg);
+}
+#container2:hover{
+    transition: width 2s, height 2s, transform 2s;
+    height: 18em;
+    width: 18em;
+    transform: rotate(360deg);
+}
+#container3:hover{
+        transition: width 2s, height 2s, transform 2s;
+        height: 18em;
+        width: 18em;
+        transform: rotate(360deg);
+ }
+ #about{
+    height: 30em;
+    width: 80em;
+   
+    margin-top: 10em;
+    margin-left: 8em;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+ }          
+ #aboutwritten{
+    height: 30em;
+    width:35em ;
+   
+    display: inline-block;
+    
+    
+ }
+ #aboutvideo{
+    height: 30em;
+    width:35em ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+        
+ }
+
+#about1{
+    color: rgb(61, 255, 47);
+    font-size: 20px;
+    padding: 10px;
+    
+}
+#about2{
+    font-size: 62px;
+    font-weight: 600;
+    color: #fdfdfd;
+    padding: 5px;
+}
+#about3{
+    font-size: 20px;
+    font-weight: 50;
+    color: #fdfdfd;
+    padding: 10px;
+}
+#gymexercises{
+    height: 35em;
+    width: 80em;
+    background-color: darkorchid;
+    margin-top: 10em;
+    margin-left: 8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.leg{
+    height: 15em;
+    width: 25em;
+    background-color: yellow;
+}
+.chest{
+    height: 15em;
+    width: 25em;
+    background-color: pink;
+
+}
+.bisep{
+    height: 15em;
+    width: 25em;
+    background-color: green;
+   
+    transition: 5s;
+   
+}
+.back{
+    height: 15em;
+    width: 25em;
+    background-color: blue;
+}
+.shoulder{
+    height: 15em;
+    width: 25em;
+    background-color: #da1310;
+}
+
+.tricepe{
+    height: 15em;
+    width: 25em;
+    background-color: #a1da10;
+}
